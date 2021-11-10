@@ -1,36 +1,23 @@
-// custom
-$colour-secondary: #6a6a68;
-$colour-input: rgb(33, 33, 121);
+$colour-secondary: #E92569;
+$colour-text: #767676;
 
-$colour-primary: rgb(0, 0, 121);
+$colour-primary: #efefef;
 
-$medium-width: 768px;
-
-// bootstrap
 $theme-colors: (
-    "primary": $colour-primary,
-    "dark": $colour-primary,
+  "primary": $colour-primary,
+  "dark": $colour-primary,
 );
 
-$input-bg: $colour-input;
-$input-border-color: $colour-input;
-$border-radius: 3px;
+$font-family-base: "Lato", serif;
+$headings-font-family: "Playfair Display", serif;
+$headings-color: $colour-secondary;
 
-$input-placeholder-color: white;
-$input-plaintext-color: white;
-
-$font-family-base: "Merriweather", serif;
-$headings-font-family: "Lato", sans-serif;
-$headings-color: $colour-primary;
-
-$body-bg: #eae7dc;
-$body-color: $colour-secondary;
-
-$card-bg: transparent;
-$card-cap-bg: white;
+$body-bg: $colour-primary;
+$body-color: $colour-text;
 
 @import "~bootstrap/scss/bootstrap";
 
-@import "./partials/form";
-@import "./partials/tabs";
-@import "./partials/typography";
+@import "./partials/nav";
+@import "./partials/homeLayout";
+@import "./partials/newsStyle";
+@import "./partials/contactStyle";

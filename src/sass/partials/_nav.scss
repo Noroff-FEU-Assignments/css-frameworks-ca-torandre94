@@ -1,0 +1,35 @@
+.navbar-light .navbar-brand{
+    color: #E92569;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #0A0A0A;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    background-color: #fff;
+}
+
+.btn{
+    background-color: #E92569;
+    color: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-control{
+    background-color: #fff;
+    border: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.navbar{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.container{
+    padding: 0;
+}

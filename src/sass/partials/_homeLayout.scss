@@ -1,0 +1,39 @@
+.layout{
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+.tab-content{
+    background-color: #fff;
+    padding: 30px;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: #fff;
+    border: none;
+    color: #767676;
+}
+
+.nav-tabs .nav-link{
+    color: #E92569;
+    text-align: center;
+    padding: 8px 35px;
+}
+
+.row{
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.row a{
+    text-decoration: none;
+    color: #767676;
+}
+
+.fa-vimeo-v, .fa-youtube{
+    font-size: 30px;
+    padding: 10px;
+}
+.footer-row{
+    background-color: #fff;
+}
